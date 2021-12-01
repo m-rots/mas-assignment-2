@@ -1,0 +1,43 @@
+[files.blocks]
+module = """
+:- module(blocks, [
+    atLeastThree/1,
+    exactlyThree/1
+]).
+"""
+
+[files.mean]
+module = """
+:- module(mean, [mean/2]).
+"""
+
+[files.movies]
+module = """
+:- module(movies, [
+    listMovies/1,
+    listMoviesByName/1,
+    listMoviesByGenre/2,
+    listMoviesByRank/2,
+    numberMovies/3,
+    db/1
+]).
+"""
+
+[files.navigate]
+module = """
+:- module(navigate, [
+    route_by_bike/2,
+    route/2,
+    route/3
+]).
+"""
+
+[files.sum]
+module = """
+:- module(sum, [sum/3]).
+"""
+
+[files.tower_blocks]
+module = """
+:- module(tower_blocks, [exactlyThreeTower/1]).
+"""
