@@ -43,3 +43,24 @@ Likewise, even if the test suite succeeds, make sure to check whether the
 submitted code matches the question's criteria.
 
 If you think we can improve these tests, please hit me up on Discord!
+
+### Blocks
+
+For the blocks test, make sure you update the student's submitted `blocks.pl`
+file to include the following facts:
+
+```prolog
+on(b, a).
+on(c, b).
+on(d, c).
+on(e, d).
+```
+
+### Sum
+
+If the test hangs on the sum test, then append/3 and permutation/2 are in the
+wrong order. You should subtract 5 points for this, as the output does not match
+the given output in the PDF.
+
+To make sure the rest of the test suite is able to complete, comment out sum/3
+in the `sum.pl` file.
