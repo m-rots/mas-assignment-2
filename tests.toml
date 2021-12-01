@@ -1,9 +1,28 @@
+[files.navigate]
+module = """
+:- module(navigate, [
+    route_by_bike/2,
+    route/2,
+    route/3
+]).
+"""
+
 [files.blocks]
 module = """
 :- module(blocks, [
     atLeastThree/1,
     exactlyThree/1
 ]).
+"""
+
+[files.tower_blocks]
+module = """
+:- module(tower_blocks, [exactlyThreeTower/1]).
+"""
+
+[files.sum]
+module = """
+:- module(sum, [sum/3]).
 """
 
 [files.mean]
@@ -21,23 +40,4 @@ module = """
     numberMovies/3,
     db/1
 ]).
-"""
-
-[files.navigate]
-module = """
-:- module(navigate, [
-    route_by_bike/2,
-    route/2,
-    route/3
-]).
-"""
-
-[files.sum]
-module = """
-:- module(sum, [sum/3]).
-"""
-
-[files.tower_blocks]
-module = """
-:- module(tower_blocks, [exactlyThreeTower/1]).
 """
